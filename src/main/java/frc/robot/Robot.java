@@ -28,7 +28,7 @@ public class Robot extends TimedRobot {
   boolean isRaining = true;
   boolean hasUmbrella = false;
 
-  boolean someSensorIsActive = false;
+  boolean someSensorIsActive = false; // Try changing this in your program with the if statement on line 51-54!
 
   // For the controllers/motors part 
   XboxController driverController = new XboxController(0);
